@@ -1,1 +1,1 @@
-(getsalary "lanzhou")
+(getsalary "beijing")
