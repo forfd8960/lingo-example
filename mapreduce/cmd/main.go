@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/forfd8960/lingo-example/getdata/functions"
+	"github.com/forfd8960/lingo-example/mapreduce/functions"
 
 	"gitlab.com/gitlab-org/vulnerability-research/foss/lingo/eval"
 )
@@ -19,6 +19,6 @@ func register(fn eval.Function, err error) {
 }
 
 func main() {
-	register(functions.NewFunctionGetSalary())
+	register(functions.NewFunctionList())
 	eval.RunLoop()
 }
